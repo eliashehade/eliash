@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+ 
+</head>
+<body>
+   
+</main>
+    <%- include("layout/header")  %>
+    <main>
+       
+        <h2>Enter location you want weather for:</h2>
+        <br/>
+        <form id="location_form">
+            <input id="location_input">
+           
+            <button>Search</button>
+        </form>
+        <h2> Weather information:</h2>
+
+        <h4 class="data_block" id="index_data_block">
+        </h4>
+        </h4>
+    </main>
+  
+   
+    <%- include("layout/footer")  %>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
